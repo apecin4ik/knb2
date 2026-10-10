@@ -1,0 +1,17 @@
+name: KNB
+version: 1.1.0
+main: me.knb.Knb
+api-version: "1.16"
+softdepend: [Vault, PlayerPoints]
+description: Камень, ножницы, бумага на деньги (Vault) или на лей (PlayerPoints)
+commands:
+  knb:
+    description: Открыть меню Камень-Ножницы-Бумага
+    usage: /knb [reload]
+permissions:
+  knb.use:
+    description: Играть в КНБ
+    default: true
+  knb.admin:
+    description: Перезагрузка конфига
+    default: op
